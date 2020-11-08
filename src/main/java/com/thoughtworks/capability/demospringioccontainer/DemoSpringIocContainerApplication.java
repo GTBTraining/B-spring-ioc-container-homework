@@ -16,7 +16,6 @@ public class DemoSpringIocContainerApplication implements ApplicationRunner {
 		SpringApplication.run(DemoSpringIocContainerApplication.class, args);
 	}
 
-
 	@Override
 	public void run(ApplicationArguments args) throws Exception {
 		System.out.println(greetingService.sayHi());
