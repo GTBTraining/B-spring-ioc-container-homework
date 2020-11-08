@@ -15,6 +15,7 @@ public class Foo {
         System.out.println("Hi, " + bar.name());
     }
 
+
     public String name() {
         return "Foo";
     }
