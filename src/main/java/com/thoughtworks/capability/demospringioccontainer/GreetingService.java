@@ -11,7 +11,7 @@ import static org.springframework.beans.factory.config.ConfigurableBeanFactory.S
 //@Scope(SCOPE_SINGLETON)
 public class GreetingService {
     public GreetingService(){
-        System.out.println("++++++++++Greeting service is initing");
+        System.out.println("+++++++++++Greeting service is initing");
     }
     String sayHi() {
         return "hello world";
